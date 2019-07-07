@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5A2D0D22D1A52A001CDDAF /* stars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F5A2D0C22D1A52A001CDDAF /* stars.jpg */; };
 		9F7C15EC22D1A484009429CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C15EB22D1A484009429CF /* AppDelegate.swift */; };
 		9F7C15EE22D1A484009429CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C15ED22D1A484009429CF /* ViewController.swift */; };
 		9F7C15F122D1A484009429CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C15EF22D1A484009429CF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5A2D0C22D1A52A001CDDAF /* stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stars.jpg; sourceTree = "<group>"; };
 		9F7C15E822D1A484009429CF /* UIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7C15EB22D1A484009429CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7C15ED22D1A484009429CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5A2D0B22D1A517001CDDAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F5A2D0C22D1A52A001CDDAF /* stars.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9F7C15DF22D1A484009429CF = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		9F7C15EA22D1A484009429CF /* UIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F5A2D0B22D1A517001CDDAF /* Resources */,
 				9F7C15FE22D1A4A8009429CF /* View */,
 				9F7C15FD22D1A49C009429CF /* ViewController */,
 				9F7C15FF22D1A4B2009429CF /* Supporting Files */,
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7C15F622D1A487009429CF /* LaunchScreen.storyboard in Resources */,
+				9F5A2D0D22D1A52A001CDDAF /* stars.jpg in Resources */,
 				9F7C15F322D1A487009429CF /* Assets.xcassets in Resources */,
 				9F7C15F122D1A484009429CF /* Main.storyboard in Resources */,
 			);
